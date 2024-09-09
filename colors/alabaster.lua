@@ -415,7 +415,7 @@ else
     -- colors
     local bg = "#f7f7f7"
     local fg = "#000000"
-    local punct_fg = "#B40600"
+    local punct_fg = "#777777"
     local def_fg = "#325cc0"
     local const_fg = "#7a3e9d"
     local active = "#ffbc5d"
@@ -608,7 +608,8 @@ else
         TSParameterReference = { fg = ansi.black },
         TSProperty = { fg = ansi.black },
         TSPunctDelimiter = { fg = punct_fg },
-        TSPunctBracket = { fg = punct_fg },
+        --TSPunctBracket = { fg = punct_fg },
+        TSPunctBracket = { fg = "#b00000" },
         TSPunctSpecial = { fg = punct_fg },
         TSRepeat = { fg = ansi.black },
         TSString = { fg = string_fg },
