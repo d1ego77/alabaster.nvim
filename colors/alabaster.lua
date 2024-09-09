@@ -625,7 +625,7 @@ else
         TSText = { fg = ansi.black },
 
         ["@attribute"] = {},
-        ["@constructor"] = { fg = ansi.black },
+        ["@constructor"] = { fg = "#b00000" },
         ["@conditional"] = { fg = ansi.black },
         ["@constant.builtin"] = { fg = const_fg },
         ["@constant.macro"] = { fg = ansi.black },
