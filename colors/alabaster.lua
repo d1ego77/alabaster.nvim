@@ -609,7 +609,7 @@ else
         TSProperty = { fg = ansi.black },
         TSPunctDelimiter = { fg = punct_fg },
         --TSPunctBracket = { fg = punct_fg },
-        TSPunctBracket = { fg = "#b00000" },
+        TSPunctBracket = { fg = "#c33c33" },
         TSPunctSpecial = { fg = punct_fg },
         TSRepeat = { fg = ansi.black },
         TSString = { fg = string_fg },
@@ -625,7 +625,7 @@ else
         TSText = { fg = ansi.black },
 
         ["@attribute"] = {},
-        ["@constructor"] = { fg = "#b00000" },
+        ["@constructor"] = { fg = "#c33c33" },
         ["@conditional"] = { fg = ansi.black },
         ["@constant.builtin"] = { fg = const_fg },
         ["@constant.macro"] = { fg = ansi.black },
