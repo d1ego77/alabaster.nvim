@@ -648,7 +648,7 @@ else
         ["@parameter.reference"] = { fg = ansi.black },
         ["@property"] = { fg = ansi.black },
         ["@punctuation.delimiter"] = { fg = punct_fg },
-        ["@punctuation.bracket"] = { fg = punct_fg },
+        ["@punctuation.bracket"] = { fg = "#b00000" },
         ["@punctuation.special"] = { fg = punct_fg },
         ["@repeat"] = { fg = ansi.black },
         ["@string"] = { fg = string_fg },
